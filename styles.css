@@ -1,0 +1,79 @@
+/* TMNT Color Theme:
+    Exported from: https://images-na.ssl-images-amazon.com/images/I/71AZvhtLIVL._AC_SY355_.jpg
+
+NOTE: Will need to adjust warmth/sat of some of these for readability.
+
+Shell color: #C2995C
+Skin color: #88957E
+Don purple: #7957A0
+Leo blue: #49598D
+Mike orange: #C73E1D
+Raph red: #9F363F
+    Backup red1: #B95354
+    Backup red2: #9D2C33
+
+
+Better palette?
+    Image: http://3.bp.blogspot.com/-WvvDOqqttlg/VdvhczxhRmI/AAAAAAAAI_8/VkdV7haZDbc/s1600/unnamed.jpg
+
+Shell color: #CEA959
+Skin color: #3D8442
+Don purple: #965AD4
+Leo blue: #3277DF
+Mike orange: #F08C25
+Raph red: #DF1D1E
+Splinter-light: #757575
+Splinter-dark #393939
+
+
+Fonts:
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sigmar One', cursive;
+*/
+
+
+body {
+    text-align: center;
+    background-color: #CEA959;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    color: #3D8442;
+    font-family: 'Sigmar One', cursive;
+    font-size: 4em;
+}
+
+.friend {
+    background-color: #88957E;
+    font-size: 2em;
+    margin: auto;
+    padding: 1em;
+    border-radius: 25% 10%;
+    box-sizing: content-box;
+    width: 33%;
+}
+
+.friend>h3 {
+    text-transform: uppercase;
+}
+
+.don {
+    color: #965AD4
+}
+
+.leo {
+    color: #3277DF
+}
+
+.mike {
+    color: #F08C25
+}
+
+.raph {
+    color: #DF1D1E
+}
+
+.splinter {
+    color: #393939
+}

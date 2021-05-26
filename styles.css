@@ -44,6 +44,22 @@ h1 {
     font-size: 4em;
 }
 
+#singButton {
+    font-family: 'Sigmar One', cursive;
+    background-color: #3D8442;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+}
+
+.singButton:hover {
+    cursor: pointer;
+}
+
 .friend {
     background-color: #88957E;
     font-size: 2em;
@@ -66,7 +82,7 @@ h1 {
     color: #3277DF
 }
 
-.mike {
+.mikey {
     color: #F08C25
 }
 
